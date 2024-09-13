@@ -10,7 +10,7 @@ Go to examples/scrapping and see scrapper.mjs.example as example of scrapping li
 Goto examples/automation and see login.mjs.example as example of login automation
 
 ## Testing
-Goto examples/testig and see test.spec.mjs.example as example of e2e test
+Goto examples/testing and see test.spec.mjs.example as example of e2e test
 
 
 ## Useful linlks
