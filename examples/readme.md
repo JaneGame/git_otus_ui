@@ -13,5 +13,7 @@ Goto examples/automation and see login.mjs.example as example of login automatio
 Goto examples/testig and see test.spec.mjs.example as example of e2e test
 
 
+## Useful linlks
+https://scrapingrobot.com/blog/playwright-web-scraping/
 
 
