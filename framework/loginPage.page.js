@@ -1,6 +1,6 @@
-import { selectors } from "@playwright/test";
+import { expect } from '@playwright/test';
 
-export async function loginPage ({ page }) {
+export function loginPage ({ page }) {
 
     const url = 'https://www.saucedemo.com/';
 
@@ -18,9 +18,13 @@ export async function loginPage ({ page }) {
         async login(name, pass) {
             await page.goto(url);
             await nameField.fill(name);
-            await passwordField.click();
             await passwordField.fill(pass);
             await loginInButton.click();
-    }}
+    },
+        async waitLoginInButton() {
+            await expect(loginInButton).toBeVisible();
+        }
+    }
 
+    
 }
