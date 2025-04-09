@@ -43,7 +43,7 @@ import { cardPage } from '../../framework/cardPage.page';
         await startPage({ page }).expextPage();
     });
 
-    test.only('Выйти из магазина', async ({ page }) => {
+    test('Выйти из магазина', async ({ page }) => {
         await startPage({ page }).exitShop();
 
         await loginPage({ page }).waitLoginInButton();
